@@ -188,6 +188,7 @@ int main() {
                             } else std::cout << "\nAction aborted.\n";
                         } else std::cout << "\nAction aborted.\n";
                     }
+                    else if (option2 != 7) std::cout << "\nEnter valid option.\n";
 
 
                 } while (option2 != 7);
