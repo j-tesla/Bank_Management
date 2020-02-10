@@ -3,6 +3,7 @@
 
 ### User guide : 
 
+* *main.cpp* , *Account.h* and *Account.cpp* should be saved in same directory. Running *main.cpp* launches the console. 
 * Navigation can be done by entering appropriate integers only.
 * You need to create an account by choosing appropriate option in the home page.
 * Yo can login in to an existing using the account number and password.
