@@ -11,12 +11,12 @@
 * Account Holder's name and PIN are changeable.
 
 ### Code Structure :
-* The `class Account {}` is defines conveniently in "*Account.h*" and "*Account.cpp*".
+* The `class Account` is defines conveniently in "*Account.h*" and "*Account.cpp*".
 * All the variables are kept `private` and accessed through `public` functions.
 * The home page is ran in a loop until **quit** option is selected.
 * All the `Account`s are stored in an array of size 10000. (`vector` was not used as it caused a bit confusion.)
 * The navigation system was created using `if` and `else` statements on the options entered.
-* No constructor was defined in `class Account{}`; a function `void InitialiseDeposit(){}` was defined instead.
+* No constructor was defined in `class Account`; a function `void InitialiseDeposit` was defined instead.
 * Number of accounts is tracked by a `unsigned` type variable `accounts` by increasing it one, each time an account is created.
 * Graphical output should have been given by using certain libraries in C++. This code lacks in that aspect. ( I have a class test to prepare. )
 
