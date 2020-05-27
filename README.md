@@ -10,6 +10,7 @@
 * Money Withdrawal and deposition can be easily done after login.
 * Account Holder's name and PIN are changeable.
 
+
 ### Code Structure :
 * The `class Account` is defines conveniently in "*Account.h*" and "*Account.cpp*".
 * All the variables are kept `private` and accessed through `public` functions.
@@ -19,4 +20,4 @@
 * No constructor was defined in `class Account`; a function `void InitialiseDeposit` was defined instead.
 * Number of accounts is tracked by a `unsigned` type variable `accounts` by increasing it one, each time an account is created.
 * Graphical output should have been given by using certain libraries in C++. This code lacks in that aspect.
-
+* Password management is not at all secure. No hashing is used.
